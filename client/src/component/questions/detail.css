@@ -1,0 +1,93 @@
+/* Đặt các thuộc tính chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kiểu cho phần điều hướng */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+nav li.logo {
+    font-weight: bold;
+}
+
+/* Kiểu cho nội dung chính */
+.main-content {
+    margin: 20px;
+    text-align: center;
+}
+
+.question-content {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.vote {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+}
+
+.vote-number {
+    font-weight: bold;
+}
+
+.rate-bar {
+    width: 200px;
+    height: 20px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    display: flex;
+}
+
+.dislike,
+.like {
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+}
+
+.dislike {
+    background-color: #dc3545;
+    /* width: 40%; */
+    border-radius: 10px 0 0 10px;
+}
+
+.like {
+    background-color: #28a745;
+    /* width: 60%; */
+    border-radius: 0 10px 10px 0;
+}
+
+#btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#btn:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,64 @@
+/* Đặt các thuộc tính chung cho trang */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kiểu cho phần điều hướng */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+nav li.logo {
+    font-weight: bold;
+}
+
+/* Kiểu cho nội dung chính */
+.main-content {
+    margin: 20px;
+}
+
+.question-content {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+.btn {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Đặt kiểu cho nút "Sai/Không/Dislike" */
+#dislike {
+    background-color: #dc3545;
+}
+
+/* Đặt kiểu cho nút "Đúng/Có/Like" */
+#like {
+    background-color: #28a745;
+}
